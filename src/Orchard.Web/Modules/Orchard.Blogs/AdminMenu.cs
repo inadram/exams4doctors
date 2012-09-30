@@ -17,7 +17,7 @@ namespace Orchard.Blogs {
 
         public void GetNavigation(NavigationBuilder builder) {
             builder.AddImageSet("blog")
-                .Add(T("Blog"), "1.5", BuildMenu);
+                .Add(T("Exams"), "1.5", BuildMenu);
         }
 
         private void BuildMenu(NavigationItemBuilder menu) {
@@ -26,19 +26,19 @@ namespace Orchard.Blogs {
             var singleBlog = blogCount == 1 ? blogs.ElementAt(0) : null;
 
             if (blogCount > 0 && singleBlog == null) {
-                menu.Add(T("Manage Blogs"), "3",
+                menu.Add(T("Manage Exams"), "3",
                          item => item.Action("List", "BlogAdmin", new { area = "Orchard.Blogs" }).Permission(Permissions.MetaListBlogs));
             }
             else if (singleBlog != null)
-                menu.Add(T("Manage Blog"), "1.0",
+                menu.Add(T("Manage Exam"), "1.0",
                     item => item.Action("Item", "BlogAdmin", new { area = "Orchard.Blogs", blogId = singleBlog.Id }).Permission(Permissions.MetaListOwnBlogs));
 
             if (singleBlog != null)
-                menu.Add(T("New Post"), "1.1",
+                menu.Add(T("New Question"), "1.1",
                          item =>
                          item.Action("Create", "BlogPostAdmin", new { area = "Orchard.Blogs", blogId = singleBlog.Id }).Permission(Permissions.MetaListOwnBlogs));
 
-            menu.Add(T("New Blog"), "1.2",
+            menu.Add(T("New Exams"), "1.2",
                      item =>
                      item.Action("Create", "BlogAdmin", new { area = "Orchard.Blogs" }).Permission(Permissions.ManageBlogs));
 
