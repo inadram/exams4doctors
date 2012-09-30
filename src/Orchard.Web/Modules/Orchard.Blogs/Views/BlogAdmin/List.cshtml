@@ -2,10 +2,10 @@
 @using Orchard.Core.Contents.ViewModels;
 @using Orchard.Utility.Extensions;
 
-@{ Layout.Title = T("Manage Blogs").ToString(); }
+@{ Layout.Title = T("Manage Exams").ToString(); }
 
 @if (Model.ContentItems.Items.Count > 0) { 
-<div class="actions"><a class="add button primaryAction" href="@Url.BlogCreate()">@T("New Exam")</a></div>
+<div class="actions"><a class="add button primaryAction" href="@Url.BlogCreate()">@T("New Blog")</a></div>
     using(Html.BeginFormAntiForgeryPost(Url.Action("List", "Admin", new { area = "Contents", id = "" }))) {
         <fieldset class="bulk-actions">
             <label for="publishActions">@T("Actions:")</label>
