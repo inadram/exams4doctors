@@ -432,6 +432,10 @@ ul.menuItems {margin:6px 0 0 0;}
     -moz-border-radius: 2px;
      border-radius: 2px;
 }
+.section-new
+{
+display:none;
+}
 .section-dashboard, .section-new {
     background:#2b2b2b;
     border:1px solid #404040;
