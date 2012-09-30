@@ -9,7 +9,26 @@
     @Html.LabelFor(m => m.Tags, T("Tags"))
     @Html.TextBoxFor(m => m.Tags, new { @class = "large text" })
     <span class="hint">@T("Separate multiple tags with commas")</span>
+	
 </fieldset>
+
+<fieldset>
+<lable>choice 1</lable>
+<input class="text-box single-line hinted hasDatepicker" id="Choice1" name="choice1" type="textarea" value=""/>
+<br>
+<br>
+<lable>choice 2</lable>
+<input class="text-box single-line hinted hasDatepicker" id="Choice2" name="choice2" type="textarea" value=""/>
+<br>
+<br>
+<lable>choice 3</lable>
+<input class="text-box single-line hinted hasDatepicker" id="Choice3" name="choice3" type="textarea" value=""/>
+<br>
+<br>
+<lable>Answer</lable>
+<input class="text-box single-line hinted hasDatepicker" id="Answer" name="Answer" type="textarea" value=""/>
+</fieldset>
+
 
 @using (Script.Foot()) {
 <script type="text/javascript">
