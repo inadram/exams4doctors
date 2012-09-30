@@ -210,8 +210,8 @@ namespace Orchard.Users.Controllers {
                 _orchardServices.Notifier.Information(T("Check your e-mail for the confirmation link."));
             }
             else
-            {
-                _orchardServices.Notifier.Information(T("The user or email is invalid."));
+            { 
+                _orchardServices.Notifier.Information(T("The user or email address is invalid."));
                 return RedirectToAction("RequestLostPassword");
             }
 
