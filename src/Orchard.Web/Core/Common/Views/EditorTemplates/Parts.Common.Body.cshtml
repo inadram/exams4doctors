@@ -4,4 +4,11 @@
     <label>@T("Body")</label>
     @Display.Body_Editor(Model)
     @Html.ValidationMessageFor(m => m.Text)
+
+    <label>@T("choice 1")</label>
+    @Html.TextBoxFor(m => m.Choice)
+     <label>@T("choice 2")</label>
+    @Html.TextBoxFor(m => m.Choice2)
 </fieldset>
+
+
