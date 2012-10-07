@@ -17,14 +17,7 @@ namespace Orchard.Blogs.Models {
             set { this.As<BodyPart>().Text = value; }
         }
 
-<<<<<<< .mine
-        public string Choice
-        {
-            get { return this.As<BodyPart>().Choice; }
-            set { this.As<BodyPart>().Choice = value; }
-        }
 
-=======
         public string Choice
         {
             get { return this.As<BodyPart>().Choice; }
@@ -36,7 +29,6 @@ namespace Orchard.Blogs.Models {
             set { this.As<BodyPart>().Choice2 = value; }
         }
 
->>>>>>> .r27
         public BlogPart BlogPart {
             get { return this.As<ICommonPart>().Container.As<BlogPart>(); }
             set { this.As<ICommonPart>().Container = value; }

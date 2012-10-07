@@ -6,14 +6,7 @@ namespace Orchard.Core.Common.Models {
             get { return Record.Text; }
             set { Record.Text = value; }
         }
-<<<<<<< .mine
 
-        public string Choice
-        {
-            get { return Record.Choice; }
-            set { Record.Choice = value; }
-        }
-=======
 
         public string Choice
         {
@@ -25,6 +18,6 @@ namespace Orchard.Core.Common.Models {
             get { return Record.Choice2; }
             set { Record.Choice2 = value; }
         }
->>>>>>> .r27
+
     }
 }
