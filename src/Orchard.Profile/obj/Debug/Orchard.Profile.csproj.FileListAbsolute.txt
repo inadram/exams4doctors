@@ -5,3 +5,10 @@ D:\exams4docsProject\exams4doctors.git\trunk\src\Orchard.Profile\bin\Debug\TechT
 D:\exams4docsProject\exams4doctors.git\trunk\src\Orchard.Profile\obj\Debug\Orchard.Profile.csprojResolveAssemblyReference.cache
 D:\exams4docsProject\exams4doctors.git\trunk\src\Orchard.Profile\obj\Debug\Orchard.Profile.dll
 D:\exams4docsProject\exams4doctors.git\trunk\src\Orchard.Profile\obj\Debug\Orchard.Profile.pdb
+D:\exam4doctorspro\Exam4doctors\exams4doctors.git\trunk\src\Orchard.Profile\bin\Debug\Orchard.Profile.dll
+D:\exam4doctorspro\Exam4doctors\exams4doctors.git\trunk\src\Orchard.Profile\bin\Debug\Orchard.Profile.pdb
+D:\exam4doctorspro\Exam4doctors\exams4doctors.git\trunk\src\Orchard.Profile\bin\Debug\nunit.framework.dll
+D:\exam4doctorspro\Exam4doctors\exams4doctors.git\trunk\src\Orchard.Profile\bin\Debug\TechTalk.SpecFlow.dll
+D:\exam4doctorspro\Exam4doctors\exams4doctors.git\trunk\src\Orchard.Profile\obj\Debug\Orchard.Profile.csprojResolveAssemblyReference.cache
+D:\exam4doctorspro\Exam4doctors\exams4doctors.git\trunk\src\Orchard.Profile\obj\Debug\Orchard.Profile.dll
+D:\exam4doctorspro\Exam4doctors\exams4doctors.git\trunk\src\Orchard.Profile\obj\Debug\Orchard.Profile.pdb
