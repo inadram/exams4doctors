@@ -10,7 +10,6 @@ namespace Orchard.Core.Common.Handlers {
             Filters.Add(StorageFilter.For(bodyRepository));
 
             OnIndexing<BodyPart>((context, bodyPart) => context.DocumentIndex
-                                                                .Add("Choice", bodyPart.Record.Choice).Store()
                                                                 .Add("body", bodyPart.Record.Text).RemoveTags().Analyze()
                                                                 .Add("format", bodyPart.Record.Format).Store());
         }

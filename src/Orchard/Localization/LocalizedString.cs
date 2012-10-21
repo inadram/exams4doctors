@@ -41,10 +41,6 @@ namespace Orchard.Localization {
         public string Text {
             get { return _localized; }
         }
-        public string Choice
-        {
-            get { return _localized; }
-        }
 
         public override string ToString() {
             return _localized;

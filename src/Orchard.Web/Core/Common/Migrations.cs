@@ -10,7 +10,6 @@ namespace Orchard.Core.Common {
                 table => table
                     .ContentPartVersionRecord()
                     .Column<string>("Text", column => column.Unlimited())
-                    .Column<string>("Choice", column => column.Unlimited())
                     .Column<string>("Format")
                 );
 

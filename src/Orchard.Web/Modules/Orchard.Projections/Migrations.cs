@@ -240,14 +240,6 @@ namespace Orchard.Projections {
                 Description = T("The text from the Body part").Text
             });
 
-            _memberBindingRepository.Create(new MemberBindingRecord
-            {
-                Type = typeof(BodyPartRecord).FullName,
-                Member = "Choice",
-                DisplayName = T("Body Choice Text").Choice,
-                Description = T("The Choice from the Body part").Choice
-            });
-
             return 1;
         }
 
