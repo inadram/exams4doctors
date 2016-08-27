@@ -2,6 +2,7 @@ Orchard Project
 ASP.NET Open Source Gallery at Outercurve Foundation
 Copyright 2009-2011 Outercurve Foundation
 
+
 This product includes software developed at
 The Outercurve Foundation (http://www.outercurve.org/).
 
